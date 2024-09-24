@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+    
+<head>
+    <title>お問い合わせ</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-inner">
+            <h1 class="logo"><img src="./assets/img/h_logo.png" alt="すき家のロゴ" class="header-img"></h1>
+
+                <nav class="gnav">
+                    <ul class="gnav-list">
+                        <li><a href="index.html">メニュー</a></li>
+                        <li><a href="about.html">この店舗について</a></li>
+                        <li><a href="contact.html">お問い合わせ</a></li>
+                    </ul>
+                </nav>
+        </div>
+    </header>
+    <h1>お問い合わせ</h1>
+    <form class="form" action="">
+        <table class="form-table">
+            <tr>
+                <th>
+                    <label for="name">
+                        お名前
+                    </label>
+                </th>
+                <td>
+                    <input type="text" id="name" class="name1">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="tel">
+                        連絡先電話番号
+                    </label>
+                </th>
+                <td>
+                    <input type="tel" placeholder="電話番号" class="tel1" >
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="email">
+                        連絡先emailアドレス
+                    </label>
+                </th>
+                <td>
+                    <input type="email"  id="email" >
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="contact">
+                        お問い合わせ内容
+                    </label>
+                </th>
+                <td>
+                    <select name="" id="" class="selectbox">
+                        <option value="contact1">商品に関するお問い合わせ</option>
+                        <option value="contact2">店舗に関するお問い合わせ</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    入力欄
+                </th>
+                <td>
+                    <textarea cols="30" rows="10" id="contact"></textarea>
+                </td>
+            </tr>
+        </table>
+
+        <div class="form-button">
+            <button class="button" type="submit">送信</button>
+        </div>
+    </form>
+    
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,179 @@
+@charset "utf-8";
+
+body{
+    font-family: "Noto Sans JP", "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+    font-size: 15px;
+    line-height:1.5;
+    color:black;
+    background-color: #f0f0f0;
+    
+}
+
+
+img {
+    max-width: 100%;  
+    filter: drop-shadow(20px 15px 10px #535252);
+}
+
+.header-img{
+    filter: none;
+}
+
+ul{list-style: none;}
+
+a{
+    text-decoration: none;
+}
+
+
+
+/*メニュー*/
+.section{
+    padding: 30px 15px;
+}
+.section-headline{
+    text-align: center;
+    font-size: 60px;
+    margin: 0 0 40px;
+}
+
+
+/*商品名、商品説明*/
+.about{
+    margin: 0;display: flex;
+    padding-left: 90px;
+}
+.about-caption{
+    padding-left: 70px;
+}
+
+/*牛丼*/
+.about-menu{
+    margin: 0 0 20px;
+    padding-left: 30px;
+    text-align: center;
+    font-size: 70px;
+}
+
+.about-description{
+    font-size: 40px;
+    padding-left: 30px;
+}
+
+.about-price{
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+.name1{
+    width:170px;
+    height: 25px;
+}
+
+/*お問い合わせ*/
+.form-table{
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+.form-table th {
+    padding: 10px;
+    text-align: left;
+}
+
+.form-button{
+    text-align: center;    
+    margin: 30px;
+}
+
+.button{
+    padding: 30px;
+    margin: 20px;
+}
+
+
+.tel1{
+    width:200px;
+    height: 35px;
+}
+
+.selectbox{
+    width:300px;
+    height: 35px;
+}
+
+/*ヘッダー*/
+
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px 20px;
+    font-size: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.header-inner{
+    background-color: rgb(238, 62, 62);
+    max-width: 2500px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.gnav-list{
+    display: flex;
+}
+
+.logo{
+    margin-right: auto;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+.content-wrapper{
+    text-align: center;
+}
+
+.special-image{
+    width: 400px; 
+    height: 300px; 
+    margin: 10px;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+.menu{
+    font-size: 60px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.page-title{
+    font-size: 60px;
+}
+
+.info{
+    font-size: 30px;
+    text-align: center;
+}
+
+.contact1{
+    font-size: 80px;
+}
